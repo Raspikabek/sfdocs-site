@@ -1,9 +1,9 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "SFDocs"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
+titleAddition = "SFDX plugin to generate documentation"
 description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 
 ## Open Graph + Twitter Cards
