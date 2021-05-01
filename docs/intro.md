@@ -2,34 +2,13 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **SFDocs in less than 5 minutes**
 
-## Getting Started
+## Why SF Docs?
 
-Get started by **creating a new site**.
+The plugin borns from the necessity of having documentation of your SObjects, classes, profiles, etc. at hand outside of Salesforce, without having to review the repository source code and asking Developers or Architects to maintain documentation manually in order to audit the actual configuration of the Organization.
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+You will be able to run the commands at any moment, but we recommend to automate this execution in your CI/CD pipeline on `main` / `master` / `production` deployments.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
