@@ -1,6 +1,11 @@
-# Website
+# SFDocs Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aeeb80ba-211c-4b4c-a061-5af4ce9bbb2c/deploy-status)](https://app.netlify.com/sites/sfdocs/deploys)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+Hosted in Netlify: https://sfdocs.netlify.app/
+
+For information about the plugin, please check [sfdocs-sfdx-plugin](https://github.com/raspikabek/sfdocs-sfdx-plugin)
 
 ## Installation
 
@@ -23,11 +28,3 @@ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
