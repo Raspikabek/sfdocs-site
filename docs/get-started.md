@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Intro
+# Get Started
 
 Let's discover **SFDocs in less than 5 minutes**
 
@@ -14,10 +14,12 @@ The plugin borns from the necessity of having documentation of your objects, cla
 
 Simply install the plugin and run the command `sfdx sfdocs:generate` in your sfdx project
 
-_run `sfdx sfdocs:generate --help` for additional options and configurations_
+:::note
+Run `sfdx sfdocs:generate --help` for additional options and configurations
+:::
 
 ## When should you run it?
 
-You will be able to run the commands at any moment, but we recommend to automate this execution in your CI/CD pipeline on `main` / `master` / `production` deployments.
+You will be able to run the commands at any moment, but we recommend to automate this execution in your automated pipeline in your main branch.
 
 Ultimately you will be able to integrate the generation of documentation with your site, whether you create a static site with the content, send the information to your Confluence page or your documentation space of choice. 

@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "SF Docs generator",
+  title: "Salesforce Documentation Generator",
   tagline:
-    "A non-official sfdx plugin to generate documentation of your projects based in the source code of your repository.",
+    "A non-official sfdx plugin to generate documentation of your projects based in the source code of your repository",
   url: "https://sfdocs.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -20,7 +20,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "intro",
+          docId: "get-started",
           position: "left",
           label: "Documentation",
         },
@@ -37,15 +37,15 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Learn",
           items: [
             {
               label: "How to install",
-              to: "/docs/intro",
+              to: "/docs/get-started",
             },
             {
               label: "Commands",
-              to: "/docs/intro",
+              to: "/docs/get-started",
             },
           ],
         },
@@ -93,13 +93,13 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/raspikabek/sfdocs-site/edit/master/website/",
+            "https://github.com/raspikabek/sfdocs-site/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/raspikabek/sfdocs-site/edit/master/website/blog/",
+            "https://github.com/raspikabek/sfdocs-site/edit/master/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

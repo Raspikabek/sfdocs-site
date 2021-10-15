@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Build it anywhere, anytime in seconds. Execute it from your CI/CD and
+        Generate your documentation anytime in seconds. Execute it from your CI/CD and
         integrate it with your documentation page.
       </>
     ),
