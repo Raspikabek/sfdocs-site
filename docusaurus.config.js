@@ -11,6 +11,10 @@ module.exports = {
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      id: 'support_us',
+      content: `⭐️ If you like SFDocs, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/Raspikabek/sfdocs-sfdx-plugin">GitHub</a>`
+    },
     navbar: {
       title: "SFDocs",
       logo: {
