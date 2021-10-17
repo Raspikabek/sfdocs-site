@@ -11,7 +11,7 @@ sidebar_position: 2
 
 Inside your sfdx project of choice, open a terminal and run
 
-```sh
+```bash
 sfdx plugins:install sfdocs-sfdx-plugin
 ```
 
@@ -19,12 +19,12 @@ sfdx plugins:install sfdocs-sfdx-plugin
 
 Run the context help of the plugin
 
-```sh
+```bash
 sfdx sfdocs --help
 ```
 
 or check in the list of installed plugins
 
-```sh
+```bash
 sfdx plugins
 ```

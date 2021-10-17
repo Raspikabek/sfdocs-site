@@ -6,7 +6,7 @@ Main command to generate the documentation. Is required to run inside a `sfdx` p
 
 generates documentation
 
-```
+```bash
 generates documentation
 
 USAGE
