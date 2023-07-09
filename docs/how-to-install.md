@@ -5,14 +5,14 @@ sidebar_position: 2
 
 ## Pre-requisites
 
-* `sfdx-cli`
+* `sfdx-cli` or `sf cli`
 
 ## How to install
 
 Inside your sfdx project of choice, open a terminal and run
 
 ```bash
-sfdx plugins:install sfdocs-sfdx-plugin
+sf plugins install sfdocs-sfdx-plugin
 ```
 
 ### Verify the installation
@@ -20,11 +20,11 @@ sfdx plugins:install sfdocs-sfdx-plugin
 Run the context help of the plugin
 
 ```bash
-sfdx sfdocs --help
+sf docs --help
 ```
 
 or check in the list of installed plugins
 
 ```bash
-sfdx plugins
+sf plugins
 ```

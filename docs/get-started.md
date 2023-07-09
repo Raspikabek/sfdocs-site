@@ -12,10 +12,10 @@ The plugin borns from the necessity of having documentation of your objects, cla
 
 ## How does it work?
 
-Simply install the plugin and run the command `sfdx sfdocs:generate` in your sfdx project
+Simply install the plugin and run the command `sf docs generate` in your sfdx project
 
 :::note
-Run `sfdx sfdocs:generate --help` for additional options and configurations
+Run `sf docs generate --help` for additional options and configurations
 :::
 
 ## When should you run it?

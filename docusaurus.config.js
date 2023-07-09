@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Salesforce Documentation Generator",
+  title: "Salesforce Documentation Generator - Site Not update to latest version, yet!",
   tagline:
     "A non-official sfdx plugin to generate documentation of your projects based in the source code of your repository",
   url: "https://sfdocs.netlify.app",
